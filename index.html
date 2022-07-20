@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <!-- <img src="Ima/lo.jpg" alt=""> -->
+                <h1>Watch<span>es</span></h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="main">
+            <div class="main-one">
+                <span class="title">New collection</span>
+                <h1>Luxury Watch</h1>
+                <span class="sub-title">Best Product ever in Season</span>
+                <div class="underline"></div>
+                <p>
+                    The uniqueness of content is a very important aspect when ranking a site by search engines. 
+                    That is why our specialists use Content-Watch.ru to check the uniqueness of content. 
+                    It automatically checks the pages of the site, which greatly simplifies the work 
+                    and saves up to 4 hours of working time per week.
+                </p>
+                <button>Show Now</button>
+            </div>
+            <div class="main-two">
+                <img class="image" src="Ima/1.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="subpics">
+            <img src="Ima/ee.png" alt="" onclick="imageup('Ima/ee.png')">
+            <img src="Ima/2.png" alt="" onclick="imageup('Ima/2.png')">
+            <img src="Ima/3.png" alt="" onclick="imageup('Ima/3.png')">
+        </div>
+    </div>   
+    <script>
+        function imageup(cli){
+            document.querySelector('.image').src=cli;
+        }
+    </script>
+</body>
+</html>
