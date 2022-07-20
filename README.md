@@ -1,2 +1,2 @@
 # landing
-watcg
+watch
